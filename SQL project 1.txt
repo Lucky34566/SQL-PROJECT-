@@ -1,0 +1,49 @@
+
+---CREATE TABLE 
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    gender VARCHAR(10),
+    course VARCHAR(50)
+);
+
+---INSERT DATA
+INSERT INTO Students (student_id, name, age, gender, course)
+VALUES 
+(1, 'Navya', 20, 'Female', 'Computer Science'),
+(2, 'Rahul', 22, 'Male', 'Electronics'),
+(3, 'Sita', 21, 'Female', 'Mechanical'),
+(4, 'Amit', 23, 'Male', 'Civil');
+
+
+-- Select all data
+SELECT * FROM Students;
+
+-- Select specific columns
+SELECT name, course FROM Students;
+
+-- Select with condition
+SELECT * FROM Students WHERE age > 21;
+
+-- Update course of a student
+UPDATE Students
+SET course = 'Data Science'
+WHERE student_id = 1;
+
+-- Delete a student
+DELETE FROM Students
+WHERE student_id = 4;
+
+---AGGREGATE FUNCTIONS
+SELECT COUNT(*) AS total_students FROM Students;
+
+SELECT MAX(age) AS oldest_student_age FROM Students;
+
+SELECT MIN(age) AS youngest_student_age FROM Students;
+
+SELECT course, COUNT(*) AS total_students_in_course
+FROM Students
+GROUP BY course;
+
+SELECT SUM(age) as total_age from students
