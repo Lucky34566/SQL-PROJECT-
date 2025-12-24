@@ -1,13 +1,17 @@
 SQL BASIC COMMANDS
 This project covers basic sql operations used in databases
 Concepts included
--create
--insert
--select
--update
--delete
+-CREATE
+-INSERT
+-SELECT
+-UPDATE
+-DELETE
 -AGGREGATE FUNCTIONS:
--min
--max
--sum
--count
+-MIN
+-MAX
+-SUM
+-COUNT
+.TOOLS USED
+-SQL
+-SQL ONLINE EDITOR
+
