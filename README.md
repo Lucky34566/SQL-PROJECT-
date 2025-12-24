@@ -1,8 +1,8 @@
 SQL BASIC COMMANDS
 This project covers basic sql operations used in databases
 Concepts included
--CREATE
--INSERT
+-CREATE   
+-INSERT 
 -SELECT
 -UPDATE
 -DELETE
