@@ -11,7 +11,7 @@ Concepts included
 - MAX
 - SUM
 - COUNT
-. TOOLS USED
+- TOOLS USED:
 - SQL
 - SQL ONLINE EDITOR
 
